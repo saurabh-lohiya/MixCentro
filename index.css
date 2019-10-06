@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Cookie|Grenze|Hi+Melody|Josefin+Sans|Montserrat|Sacramento|Shadows+Into+Light|Vibes&display=swap");
+body {
+  background: #a7d2f9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .mixCentro {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  margin-top: 10%;
+  width: auto;
+  padding: 1em 2em;
+  font-size: 2em;
+  color: antiquewhite;
+  font-weight: bolder;
+  border-radius: 0.1em;
+  background: #383b3e;
+  text-shadow: 0.12em 0.12em 0em black;
+}
+
+.container p {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Cookie", cursive;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container .xylophone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+.container .xylophone .xylophone > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+}
+
+.container .xylophone .xylons {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 22em;
+  height: 10em;
+}
+
+.container .xylophone .xylons:nth-child(1) {
+  background: #62606c;
+}
+
+.container .xylophone .xylons:nth-child(2) {
+  background: #887667;
+}
+
+.container .xylophone .xylons:nth-child(3) {
+  background: #e9f1bd;
+}
+
+.container .xylophone .xylons:nth-child(4) {
+  background: #f3f7db;
+}
+
+.container .xylophone .xylons:nth-child(5) {
+  background: #329944;
+}
+
+.container .xylophone .xylons:nth-child(6) {
+  background: #003b26;
+}
+/*# sourceMappingURL=index.css.map */

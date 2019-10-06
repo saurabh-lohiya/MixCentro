@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Cookie|Grenze|Hi+Melody|Josefin+Sans|Montserrat|Sacramento|Shadows+Into+Light|Vibes&display=swap");
+body {
+    background: #a7d2f9;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .mixCentro {
+        font-family: "Montserrat", sans-serif;
+        position: relative;
+        margin-top: 10%;
+        width: auto;
+        padding: 1em 2em;
+        font-size: 2em;
+        color: antiquewhite;
+        font-weight: bolder;
+        border-radius: 0.1em;
+        background: #383b3e;
+        text-shadow: 0.12em 0.12em 0em hsla(0, 0, 0, 1);
+    }
+    p {
+        font-size: 1.5em;
+        font-weight: 400;
+        font-family: "Cookie", cursive;
+        text-shadow: 0px 1px 1px hsla(0, 0, 0, 0.5);
+    }
+    .xylophone {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        box-shadow: 10px 10px 10px hsla(0, 0, 0, 0.8);
+        flex-flow: row wrap;
+        .xylophone > * {
+            flex: 1 100%;
+        }
+        .xylons {
+            flex: 1;
+            min-width: 22em;
+            // margin: auto;
+            height: 10em;
+        }
+        .xylons:nth-child(1) {
+            background: #62606c;
+        }
+        .xylons:nth-child(2) {
+            background: #887667;
+        }
+        .xylons:nth-child(3) {
+            background: #e9f1bd;
+        }
+        .xylons:nth-child(4) {
+            background: #f3f7db;
+        }
+        .xylons:nth-child(5) {
+            background: #329944;
+        }
+        .xylons:nth-child(6) {
+            background: #003b26;
+        }
+    }
+}
